@@ -1,0 +1,160 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:regular,700&display=swap);
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+body {
+  font-family: Roboto;
+  background: #333;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+[class*=__container] {
+  margin: 0 auto;
+  padding: 0px 15px;
+  max-width: 1056px;
+}
+
+.main__intro {
+  text-align: center;
+  padding: 20px 0px;
+}
+.main__title {
+  color: #fff;
+  font-weight: 700;
+  font-size: 48px;
+  letter-spacing: 2px;
+  line-height: 120%;
+}
+
+.works {
+  padding: 40px 0px;
+}
+@media all and (max-width: 48em) {
+  .works {
+    padding: 20px 0px;
+  }
+}
+.works__item {
+  margin: 0px 0px 30px 0px;
+}
+@media all and (max-width: 48em) {
+  .works__item {
+    margin: 0px 0px 20px 0px;
+  }
+}
+.works__img {
+  display: block;
+  width: 100%;
+  margin: 0px 0px 15px 0px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.works__img img {
+  max-width: 100%;
+  transition: all 0.4s ease 0s;
+}
+@media all and (any-hover: hover) {
+  .works__img img:hover {
+    transform: scale(1.02);
+  }
+}
+.works__description {
+  text-align: center;
+  padding: 10px 0px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 1px;
+  line-height: 120%;
+}
